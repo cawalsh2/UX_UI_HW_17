@@ -1,0 +1,59 @@
+header.navigation {
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.logo {
+    width: 23%;
+    padding: 1%;
+    text-align: center;
+}
+.nav-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 125px;
+}
+
+.nav-list ul li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.logo img {
+    width: 200px;
+    height: auto;
+}
+.heroImg {
+    height:600px;
+    padding: 25px;
+}
+.content img {
+    width: 200px;
+    height: auto;
+}
+.content {
+    width: 500px;
+    margin: 0 auto;
+}
+footer {
+    background-color: #CBB9C0;
+    text-align: right;
+    
+}
+footer ul {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0;
+    padding: 50px;
+}
+footer li {
+    display: inline-block;
+    margin: 0 10px;
+}
+body {
+    background-image: url('images/background_bubbles.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
